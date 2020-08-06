@@ -1,6 +1,6 @@
 import { cosmicSync } from "@anandchowdhary/cosmic";
 import axios from "axios";
-import { ensureDir, fstat, writeJson } from "fs-extra";
+import { ensureDir, fstat, writeFile } from "fs-extra";
 import { join } from "path";
 
 const config = cosmicSync("i18n");
@@ -39,7 +39,10 @@ export const i18n = async () => {
   for await (const language of languages) {
     const content: any = {};
     rows.forEach((row) => (content[row.key] = row[language]));
-    await writeJson(join(".", "locales", `${language}.json`), content);
+    await writeFile(
+      join(".", "locales", `${language}.json`),
+      JSON.stringify(content, null, 2)
+    );
     console.log("Created", language);
   }
   console.log("Done!");
