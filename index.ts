@@ -1,4 +1,5 @@
 import { config } from "dotenv";
+import { GoogleSpreadsheet } from "google-spreadsheet";
 config();
 
 export const i18n = async () => {
