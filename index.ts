@@ -1,6 +1,4 @@
-import { config } from "dotenv";
 import { GoogleSpreadsheet } from "google-spreadsheet";
-config();
 
 const doc = new GoogleSpreadsheet("<the sheet ID from the url>");
 
