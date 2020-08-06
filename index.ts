@@ -1,27 +1,34 @@
-import { google } from "googleapis";
 import { cosmicSync } from "@anandchowdhary/cosmic";
+import axios from "axios";
 
 const config = cosmicSync("i18n");
-
-const oauth2Client = new google.auth.OAuth2(
-  config.googleSheetsClientId,
-  config.googleSheetsClientSecret,
-  "https://developers.google.com/oauthplayground"
-);
-oauth2Client.setCredentials({
-  access_token: config.googleSheetsAccess,
-  refresh_token: config.googleSheetsRefresh,
-});
-
-const sheets = google.sheets("v4");
+const sheet = config.sheet || 1;
 
 export const i18n = async () => {
-  console.log("Starting i18n...");
-  const result = await sheets.spreadsheets.values.get({
-    spreadsheetId: config.sheetId,
-    range: "A1:A10",
-  });
-  console.log(result);
+  const { data } = await axios.get(
+    `https://spreadsheets.google.com/feeds/list/${config.sheetId}/${sheet}/public/values?alt=json`
+  );
+  const rows: any[] = [];
+  if (data && data.feed && data.feed.entry) {
+    console.log(data.feed.entry);
+    for (let i = 0; i < data.feed.entry.length; i++) {
+      const entry = data.feed.entry[i];
+      const keys = Object.keys(entry);
+      const newRow: any = {};
+      for (let j = 0; j < keys.length; j++) {
+        const gsxCheck = keys[j].indexOf("gsx$");
+        if (gsxCheck > -1) {
+          const key = keys[j];
+          const name = key.substring(4);
+          const content = entry[key];
+          const value = content.$t;
+          newRow[name] = value;
+        }
+      }
+      rows.push(newRow);
+    }
+  }
+  console.log("rows", rows);
 };
 
 i18n();
