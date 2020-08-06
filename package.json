@@ -28,7 +28,6 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@anandchowdhary/cosmic": "^1.0.0",
-    "google-spreadsheet": "^3.0.11"
+    "@anandchowdhary/cosmic": "^1.0.0"
   }
 }

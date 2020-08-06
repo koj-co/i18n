@@ -1,9 +1,7 @@
-import { GoogleSpreadsheet } from "google-spreadsheet";
-
-const doc = new GoogleSpreadsheet("<the sheet ID from the url>");
+import { cosmic } from "@anandchowdhary/cosmic";
 
 export const i18n = async () => {
-  console.log("Starting i18n generator...");
+  const config = await cosmic("i18n");
 };
 
 i18n();
