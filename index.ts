@@ -28,6 +28,12 @@ export const i18n = async () => {
       rows.push(newRow);
     }
   }
+  const languages = Object.keys(rows[0]).filter(
+    (key) => key.toLocaleLowerCase().trim() !== "key"
+  );
+  for await (const language of languages) {
+    //
+  }
   console.log("rows", rows);
 };
 
