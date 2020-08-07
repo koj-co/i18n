@@ -7,7 +7,7 @@ jobs:
   release:
     name: Trigger site build
     runs-on: ubuntu-18.04
-    if: "contains(github.event.head_commit.message, '[skip ci]')"
+    if: "contains(github.event.head_commit.message, 'Update I18N data')"
     steps:
       - name: Trigger webhook
         uses: joelwmale/webhook-action@master
