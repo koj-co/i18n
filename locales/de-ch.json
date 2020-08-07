@@ -270,10 +270,10 @@
   "gettingStarted.rooms.individualRooms": "Einzelne Räume",
   "gettingStarted.rooms.title": "Wofür möchtest du eine neue Wohnungseinrichtung?",
   "siteTitle": "Koj – Deine stylische Wohnungseinrichtung ab CHF175/Monat",
-  "gettingStarted.timeline.label": "Erwartete Zeitachse",
-  "gettingStarted.timeline.title": "Wie schnell möchten Sie Ihre Wohnung möbliert haben?",
-  "gettingStarted.timeline.nextFewWeeks": "In den nächsten Wochen",
-  "gettingStarted.timeline.nextFewMonths": "In den nächsten Monaten",
-  "gettingStarted.timeline.flexible": "Ich bin flexibel mit der Zeitleiste",
+  "gettingStarted.timeline.label": "",
+  "gettingStarted.timeline.title": "",
+  "gettingStarted.timeline.nextFewWeeks": "",
+  "gettingStarted.timeline.nextFewMonths": "",
+  "gettingStarted.timeline.flexible": "",
   "home.description": "Lass dir deine eigene stylische Traumwohnung von einem Interior Designer zusammenstellen und miete deine"
 }
