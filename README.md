@@ -13,7 +13,7 @@ Every hour, a GitHub Actions workflow generates the files in the [`./locales`](.
 | ---- | ------------- | ------------ |
 | key1 | Value English | Value German |
 
-In this spreadsheet, the cell `A1` should be "key", and `A2`...`A` should be language codes.
+In this spreadsheet, the cell `A1` should be "key", and `B1`...`X1` should be language codes.
 
 The generated file [`./locales/de-ch.json`](./locales/de-ch.json), for example, would be:
 
