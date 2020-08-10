@@ -275,5 +275,11 @@
   "gettingStarted.timeline.nextFewWeeks": "In the next few weeks",
   "gettingStarted.timeline.nextFewMonths": "In the next few months",
   "gettingStarted.timeline.flexible": "I'm flexible with the timeline",
-  "home.description": "Get your apartment fully furnished by a professional interior designer and rent high-quality furniture from premium brands on a monthly subscription."
+  "home.description": "Get your apartment fully furnished by a professional interior designer and rent high-quality furniture from premium brands on a monthly subscription.",
+  "realEstate.wins.tenants.title": "Tenants",
+  "realEstate.wins.tenants.intro": "Your tenants have the option of living in a well designed, fully furnished apartment for a monthly subscription.",
+  "realEstate.wins.realEstateManager.title": "Real Estate Manager",
+  "realEstate.wins.realEstateManager.intro": "As a Real estate managers you can offer fully furnished apartments without any investments or administrative work",
+  "realEstate.wins.environment.title": "Environment",
+  "realEstate.wins.environment.intro": "At Koj we only use high-quality furniture with long durability. Taking a stance against fast-furniture."
 }

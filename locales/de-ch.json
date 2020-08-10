@@ -275,5 +275,11 @@
   "gettingStarted.timeline.nextFewWeeks": "In ein paar Wochen",
   "gettingStarted.timeline.nextFewMonths": "In ein paar Monaten",
   "gettingStarted.timeline.flexible": "Ich bin flexibel",
-  "home.description": "Lass dir deine eigene stylische Traumwohnung von einem Interior Designer zusammenstellen und miete deine"
+  "home.description": "Lass dir deine eigene stylische Traumwohnung von einem Interior Designer zusammenstellen und miete deine",
+  "realEstate.wins.tenants.title": "Mieter",
+  "realEstate.wins.tenants.intro": "Deine Mieter haben die Möglichkeit mit einem monatlichen Abo in einer professionell designten, voll möblierten Wohnung zu leben.",
+  "realEstate.wins.realEstateManager.title": "Immobilienmarkler",
+  "realEstate.wins.realEstateManager.intro": "Du kannst voll möblierte Wohnungen ohne Investment oder administrativen Aufwand anbieten.",
+  "realEstate.wins.environment.title": "Umwelt",
+  "realEstate.wins.environment.intro": "Bei Koj nutzen wir nur hochwertige und damit langlebige Möbel. Wir stellen uns gegen unsere Wegwerfgesellschaft."
 }
