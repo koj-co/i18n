@@ -281,5 +281,7 @@
   "realEstate.wins.realEstateManager.title": "Immobilienmarkler",
   "realEstate.wins.realEstateManager.intro": "Du kannst voll möblierte Wohnungen ohne Investment oder administrativen Aufwand anbieten.",
   "realEstate.wins.environment.title": "Umwelt",
-  "realEstate.wins.environment.intro": "Bei Koj nutzen wir nur hochwertige und damit langlebige Möbel. Wir stellen uns gegen unsere Wegwerfgesellschaft."
+  "realEstate.wins.environment.intro": "Bei Koj nutzen wir nur hochwertige und damit langlebige Möbel. Wir stellen uns gegen unsere Wegwerfgesellschaft.",
+  "realEstate.comparison.titleLine1": "Verwandle eine Wohnung",
+  "realEstate.comparison.titleLine2": ""
 }
