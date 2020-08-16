@@ -52,3 +52,12 @@ npm run start
 The code in this repository, with the exception of the `locales` folder, are licensed under [MIT](./LICENSE.MIT).
 
 The contents of the `locales` folder are licensed under [CC-BY-4.0](./LICENSE.CC).
+
+<p align="center">
+  <a href="https://koj.co">
+    <img width="44" alt="Koj" src="https://kojcdn.com/v1593890002/website-v2/logo_mcxuwq.svg">
+  </a>
+</p>
+<p align="center">
+  <sub>An open source project by <a href="https://koj.co">Koj</a>. <br> <a href="https://koj.co">Furnish your home in style, for as low as CHF175/month →</a></sub>
+</p>
