@@ -275,6 +275,9 @@
   "gettingStarted.timeline.nextFewWeeks": "In ein paar Wochen",
   "gettingStarted.timeline.nextFewMonths": "In ein paar Monaten",
   "gettingStarted.timeline.flexible": "Ich bin flexibel",
+  "gettingStarted.timeline.year": "Jahr",
+  "gettingStarted.timeline.month": "Monat",
+  "gettingStarted.timeline.day": "Tag",
   "home.description": "Lass dir deine eigene stylische Traumwohnung von einem Interior Designer zusammenstellen und miete deine",
   "realEstate.wins.tenants.title": "Mieter",
   "realEstate.wins.tenants.intro": "Deine Mieter haben die Möglichkeit mit einem monatlichen Abo in einer professionell designten, voll möblierten Wohnung zu leben.",
@@ -283,5 +286,17 @@
   "realEstate.wins.environment.title": "Umwelt",
   "realEstate.wins.environment.intro": "Bei Koj nutzen wir nur hochwertige und damit langlebige Möbel. Wir stellen uns gegen unsere Wegwerfgesellschaft.",
   "realEstate.comparison.titleLine1": "Verwandle deine Wohnung",
-  "realEstate.comparison.titleLine2": "in ein Zuhause im $STYLE-Stil"
+  "realEstate.comparison.titleLine2": "in ein Zuhause im $STYLE-Stil",
+  "months.january": "Januar",
+  "months.february": "Februar",
+  "months.march": "März",
+  "months.april": "April",
+  "months.may": "Mai",
+  "months.june": "Juni",
+  "months.july": "Juli",
+  "months.august": "August",
+  "months.september": "September",
+  "months.october": "Oktober",
+  "months.november": "November",
+  "months.december": "Dezember"
 }
