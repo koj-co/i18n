@@ -347,5 +347,6 @@
   "proposal.plans.soon": "Bald erhältlich",
   "proposal.plans.everythingBasic": "Alles in Basic plus: ",
   "proposal.plans.electricalUtilityWork": "Elektrische Installation",
-  "proposal.plans.premiumWallPainting": "Individuelle Malerarbeit"
+  "proposal.plans.premiumWallPainting": "Individuelle Malerarbeit",
+  "proposal.error": "Beim Abrufen Ihres Vorschlags ist ein Fehler aufgetreten."
 }
