@@ -348,5 +348,6 @@
   "proposal.plans.everythingBasic": "Everything in Basic, plus:",
   "proposal.plans.electricalUtilityWork": "Electrical utility work",
   "proposal.plans.premiumWallPainting": "Premium wall painting",
-  "proposal.error": "We got an error in fetching your proposal."
+  "proposal.error": "We got an error in fetching your proposal.",
+  "proposal.priceUnavailable": "Price unavailable"
 }
