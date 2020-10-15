@@ -349,5 +349,6 @@
   "proposal.plans.electricalUtilityWork": "Elektrische Installation",
   "proposal.plans.premiumWallPainting": "Individuelle Malerarbeit",
   "proposal.error": "Ups! Da lief was schief beim Ladevorgang.",
-  "proposal.priceUnavailable": "Preis nicht verfügbar"
+  "proposal.priceUnavailable": "Preis nicht verfügbar",
+  "proposal.contract.confirm": ""
 }

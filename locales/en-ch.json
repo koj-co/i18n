@@ -349,5 +349,6 @@
   "proposal.plans.electricalUtilityWork": "Electrical utility work",
   "proposal.plans.premiumWallPainting": "Premium wall painting",
   "proposal.error": "We got an error in fetching your proposal.",
-  "proposal.priceUnavailable": "Price unavailable"
+  "proposal.priceUnavailable": "Price unavailable",
+  "proposal.contract.confirm": "We'll send you a copy of your contract over email and take it forward."
 }
